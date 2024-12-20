@@ -1,0 +1,58 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #87CEEB; /* Sky blue background */
+    background-size: cover;
+    backdrop-filter: blur(5px); /* Adds a slight blur for elegance */
+}
+
+.container {
+    margin-top: 10%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+
+/* Title Styling */
+h1 {
+    font-family: 'Georgia', serif; /* Changed the font */
+    color: #87CEEB; /* Sky blue color for the title */
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #ff6b6b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #e64545;
+}
+
+.hidden {
+    display: none;
+}
+
+#message img {
+    margin-top: 15px;
+    border-radius: 10px;
+    max-width: 100%;
+}
